@@ -1,9 +1,13 @@
 import React from 'react';
+import img from '../assets/large/self/self.jpg';
 
 function About() {
   return (
-    <section className="my-5">
-      <h1 id="about">Who am I?</h1>
+    <section className="about">
+      <h1>Who am I?</h1>
+      <div className="self-portrait">
+        <img src={img} alt="self-portrait" />
+      </div>
       <div className="my-2">
         <p>
           My name is Christian Beam and I am a Web Developer. I specialize in

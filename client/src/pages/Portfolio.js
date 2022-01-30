@@ -54,7 +54,12 @@ const Portfolio = () => {
     },
   ];
 
-  return <ProjectsList items={PROJECTS} />;
+  return (
+    <>
+      <h1 className="center">My Projects</h1>
+      <ProjectsList items={PROJECTS} />
+    </>
+  );
 };
 
 export default Portfolio;

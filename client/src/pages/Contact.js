@@ -68,7 +68,8 @@ const Contact = () => {
   };
 
   return (
-    <form className="employer-form" onSubmit={contactSubmitHandler}>
+    <form className="contact-form" onSubmit={contactSubmitHandler}>
+      <h1>Contact Me</h1>
       <Input
         id="name"
         element="input"

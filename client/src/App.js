@@ -8,6 +8,7 @@ import {
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
+import Resume from './pages/Resume';
 import MainNavigation from './components/Navigation/MainNavigation';
 
 function App() {
@@ -24,6 +25,9 @@ function App() {
           </Route>
           <Route path="/contact" exact>
             <Contact />
+          </Route>
+          <Route path="/resume" exact>
+            <Resume />
           </Route>
           <Redirect to="/" />
         </Switch>
