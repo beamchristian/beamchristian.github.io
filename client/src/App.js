@@ -1,39 +1,38 @@
-import React, { useState } from 'react';
-import Nav from './components/Navigation';
-import About from './components/About';
-import Project from './components/Project';
-import ContactForm from './components/Contact';
-import Footer from './components/Footer';
+import React from 'react';
+import {
+  BrowserRouter as Router,
+  Route,
+  Redirect,
+  Switch,
+} from 'react-router-dom';
+import About from './pages/About';
+import Portfolio from './pages/Portfolio';
+import Contact from './pages/Contact';
+import Resume from './pages/Resume';
+import MainNavigation from './components/Navigation/MainNavigation';
 
 function App() {
-  const [contactSelected, setContactSelected] = useState(false);
-  const [categories] = useState([
-    { name: 'portfolio', description: 'My applications that I created' },
-    { name: 'resume', description: 'My Resume' },
-  ]);
-
-  const [currentCategory, setCurrentCategory] = useState(categories[0]);
   return (
-    <div>
-      <Nav
-        categories={categories}
-        setCurrentCategory={setCurrentCategory}
-        currentCategory={currentCategory}
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
-      ></Nav>
+    <Router>
+      <MainNavigation />
       <main>
-        {!contactSelected ? (
-          <>
-            <About></About>
-            <Project currentCategory={currentCategory}></Project>
-          </>
-        ) : (
-          <ContactForm></ContactForm>
-        )}
+        <Switch>
+          <Route path="/" exact>
+            <About />
+          </Route>
+          <Route path="/portfolio" exact>
+            <Portfolio />
+          </Route>
+          <Route path="/contact" exact>
+            <Contact />
+          </Route>
+          <Route path="/resume" exact>
+            <Resume />
+          </Route>
+          <Redirect to="/" />
+        </Switch>
       </main>
-      <Footer></Footer>
-    </div>
+    </Router>
   );
 }
 
