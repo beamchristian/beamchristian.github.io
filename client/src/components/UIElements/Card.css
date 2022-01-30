@@ -4,7 +4,7 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
   border-radius: 6px;
   padding: 1rem;
-  width: 80%;
+  width: 100%;
   overflow: hidden;
-  background: black;
+  background: #11262d;
 }

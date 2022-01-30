@@ -7,19 +7,27 @@ import {
 } from 'react-router-dom';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
+import Contact from './pages/Contact';
+import MainNavigation from './components/Navigation/MainNavigation';
 
 function App() {
   return (
     <Router>
-      <Switch>
-        <Route path="/" exact>
-          <About />
-        </Route>
-        <Route path="/portfolio" exact>
-          <Portfolio />
-        </Route>
-        <Redirect to="/" />
-      </Switch>
+      <MainNavigation />
+      <main>
+        <Switch>
+          <Route path="/" exact>
+            <About />
+          </Route>
+          <Route path="/portfolio" exact>
+            <Portfolio />
+          </Route>
+          <Route path="/contact" exact>
+            <Contact />
+          </Route>
+          <Redirect to="/" />
+        </Switch>
+      </main>
     </Router>
   );
 }
