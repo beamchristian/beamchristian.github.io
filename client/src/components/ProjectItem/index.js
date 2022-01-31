@@ -12,10 +12,14 @@ const ProjectItem = props => {
           <h2>{props.name}</h2>
           <h3>{props.description}</h3>
           <h3>
-            <a href={props.repo}>Repo</a>
+            <a href={props.repo} target="_blank" rel="noreferrer">
+              Repo
+            </a>
           </h3>
           <h3>
-            <a href={props.deployment}>Deployment</a>
+            <a href={props.deployment} target="_blank" rel="noreferrer">
+              Deployment
+            </a>
           </h3>
         </div>
       </Card>

@@ -8,7 +8,7 @@ function About() {
       <div className="self-portrait">
         <img src={img} alt="self-portrait" />
       </div>
-      <div className="my-2">
+      <div className="about-description">
         <p>
           My name is Christian Beam and I am a Web Developer. I specialize in
           the MERN Stack. I have 1 year of experience with multiple programming

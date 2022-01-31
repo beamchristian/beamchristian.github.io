@@ -29,7 +29,7 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: 0.1em;
-  background: #0c171d;
+  background: #111111;
   font-family: 'Poiret One';
 }
 
@@ -98,6 +98,34 @@ p {
   padding: 0.5rem;
   border-radius: 1rem;
   background-color: #23b5d3;
+}
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 1rem 1rem;
+}
+
+.footer-atag {
+  text-decoration: none;
+}
+
+.social-links {
+  margin: 2rem;
+  width: 4rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.about {
+  border: 1px solid #23b5d3;
+  border-radius: 1rem;
+  margin: 2rem;
+  padding: 1rem 2rem;
+  box-shadow: 0 0.3rem 0.5rem rgba(35, 181, 211);
 }
 
 @media screen and (min-width: 1979px) {
