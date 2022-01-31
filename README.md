@@ -25,7 +25,7 @@ This is my professional portfolio. I am a web developer with a specialization in
 # Links
 
 - [Repo](https://github.com/beamchristian/beam-react-portfolio 'Repo')
-- [Deployment](https://beamchristian.github.io/beam-react-portfolio/ 'Deployment')
+- [Deployment](https://beamchristian.github.io 'Deployment')
 
 # Contact
 
