@@ -22,5 +22,5 @@ This is my professional portfolio. I am a web developer with a specialization in
 # Contact
 
 - [Profile](https://github.com/beamchristian 'Christian Beam')
-- [Email](mailto:beamchristian@yahoo.com 'Email')
+- [Email](mailto:ckbeamcoding@gmail.com 'Email')
 - [LinkedIn](https://www.linkedin.com/in/christian-beam-64b5b5a0/ 'LinkedIn')
