@@ -39,4 +39,11 @@
 
 .project-item__info h3 {
   margin: 0;
+  font-weight: normal;
+}
+
+@media screen and (max-width: 577px) {
+  .project-item__info h3 {
+    font-size: 1rem;
+  }
 }

@@ -4,4 +4,9 @@
   padding: 1rem;
   width: 90%;
   max-width: 40rem;
+  border: 1px solid #23b5d3;
+  border-radius: 1rem;
+  margin: 2rem;
+  padding: 1rem 2rem;
+  box-shadow: 0 0.3rem 0.5rem rgba(35, 181, 211);
 }
