@@ -13,7 +13,8 @@ const Portfolio = () => {
     {
       id: 'p1',
       name: 'Versa-Train',
-      description: 'Full MERN Stack Application',
+      description: 'This Application is Full MERN Stack Application using Apollo GraphQL. Its funtionality is for employers to create and host their training material so that their employees can stay up to date with required job training. 
+Employers can create the employee profiles and set the employees login and password.  Once the employee is logged in, they have their own seperate dashboard. This project was done with 3 other contributers using Agile Methodology via github',
       image: img6,
       repo: 'https://github.com/oldgraybuzzard/crispy-giggle',
       deployment: 'https://crispy-gigglers.herokuapp.com/',
