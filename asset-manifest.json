@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.b8d518b6.css",
-    "main.js": "/static/js/main.59c262c2.js",
+    "main.css": "/static/css/main.ed6be588.css",
+    "main.js": "/static/js/main.e4f975fb.js",
     "static/js/787.23356a18.chunk.js": "/static/js/787.23356a18.chunk.js",
+    "static/media/shop-shop.jpg": "/static/media/shop-shop.15dc1e2206b98b9a9a4a.jpg",
     "static/media/self.jpg": "/static/media/self.d1c1ed9e0f64fa72e602.jpg",
     "static/media/versa-train.jpg": "/static/media/versa-train.bda7d18e73d4b908504e.jpg",
+    "static/media/Budget-Tracker.jpg": "/static/media/Budget-Tracker.9c91faf7512656292a21.jpg",
     "static/media/deep-thoughts.jpg": "/static/media/deep-thoughts.b7a5a49267fb54405279.jpg",
     "static/media/Christian-Beam-Resume.pdf": "/static/media/Christian-Beam-Resume.edfdaebe25edb001a42e.pdf",
-    "static/media/oh-snap.jpg": "/static/media/oh-snap.2d2329f60a536d718b3f.jpg",
-    "static/media/space-explorer.jpg": "/static/media/space-explorer.e1ea24dce7f3b79ec2b0.jpg",
     "static/media/pizza-hunt.jpg": "/static/media/pizza-hunt.29b0a67fcb63882602a0.jpg",
     "static/media/my-tech-now.jpg": "/static/media/my-tech-now.86c2acc3192532276614.jpg",
     "index.html": "/index.html",
-    "main.b8d518b6.css.map": "/static/css/main.b8d518b6.css.map",
-    "main.59c262c2.js.map": "/static/js/main.59c262c2.js.map",
+    "main.ed6be588.css.map": "/static/css/main.ed6be588.css.map",
+    "main.e4f975fb.js.map": "/static/js/main.e4f975fb.js.map",
     "787.23356a18.chunk.js.map": "/static/js/787.23356a18.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8d518b6.css",
-    "static/js/main.59c262c2.js"
+    "static/css/main.ed6be588.css",
+    "static/js/main.e4f975fb.js"
   ]
 }
