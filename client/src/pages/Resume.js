@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ResumePdf from '../assets/resume/Christian-Beam-Resume.pdf';
+import ResumePdf from '../assets/resume/Christian_Beam_Resume.pdf';
 
 function Resume() {
   return (
@@ -8,7 +8,7 @@ function Resume() {
       <h1>Resume</h1>
       <div className="download-resume">
         <iframe
-          src="https://drive.google.com/file/d/1QsepJ_afeh9NbdHHMymM7E8LVSvt-1TfxWfGUt5pH_s/preview"
+          src="https://drive.google.com/file/d/14jT5iti14_z7zdk3akk4mfWjv9Wbb7FYEEWpD_6MC7g/preview"
           className="resume"
           allow="autoplay"
           title="resume-iframe"
