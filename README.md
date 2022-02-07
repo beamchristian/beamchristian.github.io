@@ -12,7 +12,7 @@ This is my professional portfolio. I am a web developer with a specialization in
 
 - `Portfolio`: Pictures of applications that I have selected to display on my professional portfolio with links to corresponding repo and deployment.
 
-- `Resume`: Coming soon..
+- `Resume`: Preview and download of my resume. 
 
 # Links
 
