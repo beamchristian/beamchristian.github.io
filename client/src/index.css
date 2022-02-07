@@ -141,11 +141,13 @@ p {
 .footer-atag {
   text-decoration: none;
   color: rgba(245, 245, 245, 0.87);
+  font-size: 1rem;
 }
 
 .social-links {
   margin: 2rem;
-  width: 4rem;
+  margin-top: 0.5rem;
+  width: 2rem;
 }
 
 ul {
