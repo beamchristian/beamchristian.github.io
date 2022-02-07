@@ -5,11 +5,11 @@ const ProjectItem = props => {
   return (
     <li className="project-item">
       <Card className="project-item__content">
+        <h2 className="project-name">{props.name}</h2>
         <div className="project-item__image">
           <img src={props.image} alt={props.name} />
         </div>
         <div className="project-item__info">
-          <h2>{props.name}</h2>
           <h3>{props.description}</h3>
           <h3>
             <a href={props.repo} target="_blank" rel="noreferrer">

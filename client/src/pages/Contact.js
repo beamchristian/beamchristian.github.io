@@ -68,41 +68,45 @@ const Contact = () => {
   };
 
   return (
-    <form className="contact-form" onSubmit={contactSubmitHandler}>
-      <h1>Contact Me</h1>
-      <Input
-        id="name"
-        element="input"
-        type="text"
-        label="Name"
-        validators={[VALIDATOR_REQUIRE()]}
-        errorText="Please enter a valid name."
-        onInput={inputHandler}
-      />
-      <Input
-        id="email"
-        element="input"
-        label="Email"
-        validators={[VALIDATOR_REQUIRE(), VALIDATOR_EMAIL()]}
-        errorText="Please enter a valid email."
-        onInput={inputHandler}
-      />
-      <Input
-        id="message"
-        element="text-area"
-        label="Message"
-        validators={[
-          VALIDATOR_REQUIRE(),
-          VALIDATOR_MINLENGTH(5),
-          VALIDATOR_MAXLENGTH(380),
-        ]}
-        errorText="Please enter a valid message (Must be between 5 and 380 characters)."
-        onInput={inputHandler}
-      />
-      <Button type="submit" disabled={!formState.isValid}>
-        Submit
-      </Button>
-    </form>
+    <div>
+      <h1 className="section-title">Contact Me</h1>
+      <div className="contact-style">
+        <form className="contact-form" onSubmit={contactSubmitHandler}>
+          <Input
+            id="name"
+            element="input"
+            type="text"
+            label="Name"
+            validators={[VALIDATOR_REQUIRE()]}
+            errorText="Please enter a valid name."
+            onInput={inputHandler}
+          />
+          <Input
+            id="email"
+            element="input"
+            label="Email"
+            validators={[VALIDATOR_REQUIRE(), VALIDATOR_EMAIL()]}
+            errorText="Please enter a valid email."
+            onInput={inputHandler}
+          />
+          <Input
+            id="message"
+            element="text-area"
+            label="Message"
+            validators={[
+              VALIDATOR_REQUIRE(),
+              VALIDATOR_MINLENGTH(5),
+              VALIDATOR_MAXLENGTH(380),
+            ]}
+            errorText="Please enter a valid message (Must be between 5 and 380 characters)."
+            onInput={inputHandler}
+          />
+          <Button type="submit" disabled={!formState.isValid}>
+            Submit
+          </Button>
+        </form>
+      </div>
+    </div>
   );
 };
 

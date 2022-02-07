@@ -10,14 +10,14 @@
   width: 95%;
   text-decoration: none;
   padding: 0.5rem;
-  color: rgba(245, 245, 245, 0.87);
-  background: #292929;
+  color: black;
+  background: #dbcbd8;
   margin: 1rem 1rem;
 }
 
 .project-item a:hover,
 .project-item a:active {
-  background: #2f2f2a;
+  background: #f2fdff;
 }
 
 .project-item__content {

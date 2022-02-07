@@ -29,7 +29,17 @@ body {
   line-height: 1.5;
   letter-spacing: 0.1em;
   background: #111111;
-  font-family: 'Poiret One';
+  font-family: Helvetica, Arial, Sans-Serif;
+}
+
+@font-face {
+  font-family: Massillo;
+  src: url(./assets/fonts/Massillo.ttf);
+}
+
+@font-face {
+  font-family: Quicksand;
+  src: url(./assets/fonts/Quicksand_Dash.otf);
 }
 
 img {
@@ -70,8 +80,17 @@ p {
   color: rgba(245, 245, 245, 0.87);
 }
 
-.about {
+.section-title {
+  font-family: Massillo, sans-serif;
+  font-size: 6.3rem;
   text-align: center;
+}
+
+.project-name {
+  color: #faa916;
+  text-align: center;
+  font-family: Quicksand, sans-serif;
+  font-size: 2rem;
 }
 
 .center {
@@ -91,6 +110,13 @@ p {
   flex-direction: column;
 }
 
+.resume-section {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
 .resume-button {
   width: 10rem;
   margin: 1rem;
@@ -108,6 +134,7 @@ p {
 
 .footer-atag {
   text-decoration: none;
+  color: rgba(245, 245, 245, 0.87);
 }
 
 .social-links {
@@ -120,6 +147,7 @@ ul {
 }
 
 .about {
+  text-align: center;
   border: 1px solid #23b5d3;
   border-radius: 1rem;
   margin: 2rem;
@@ -138,5 +166,18 @@ ul {
   .resume {
     width: 15rem;
     height: 20rem;
+  }
+
+  .section-title {
+    font-size: 3rem;
+  }
+
+  .self-portrait {
+    width: 5rem;
+  }
+
+  .about {
+    width: 100%;
+    margin: 0 auto;
   }
 }
