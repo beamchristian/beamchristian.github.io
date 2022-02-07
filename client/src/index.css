@@ -43,7 +43,8 @@ body {
 }
 
 img {
-  max-width: 100%;
+  max-width: 70%;
+  min-width: 70%;
 }
 
 .self-portrait {
@@ -181,7 +182,7 @@ ul {
   }
 
   .self-portrait {
-    width: 5rem;
+    width: 6rem;
   }
 
   .about {
@@ -192,5 +193,9 @@ ul {
   .contact-style {
     width: 100%;
     margin: 0 auto;
+  }
+
+  img {
+    max-width: 100%;
   }
 }
