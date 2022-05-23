@@ -14,9 +14,10 @@ function About() {
             Hi there! I'm Christian Beam and I am a Web Developer, pleased to
             meet you. I specialize in the MERN Stack and have 1 year of
             experience with multiple programming technologies. I have completed
-            a Full Stack Certification from the University Of Central Florida
-            (UCF) and am proficient with: HTML5, CSS3, JavaScript, jQuery,
-            Express.js, React.js, Node.js, MongoDB, MySQL, and Git.
+            a Full Stack Certificate Bootcamp from the University Of Central
+            Florida (UCF) and am proficient with: HTML5, CSS3, JavaScript,
+            jQuery, Express.js, React.js, Node.js, MongoDB, MySQL, Python and
+            Git.
           </p>
         </div>
       </section>
