@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.f626893e.css",
-    "main.js": "/static/js/main.b1e66110.js",
+    "main.css": "/static/css/main.40d700d0.css",
+    "main.js": "/static/js/main.61eec0b6.js",
     "static/js/787.23356a18.chunk.js": "/static/js/787.23356a18.chunk.js",
     "static/media/shop-shop.jpg": "/static/media/shop-shop.15dc1e2206b98b9a9a4a.jpg",
     "static/media/book-search.jpg": "/static/media/book-search.e62fafa592724aa33da5.jpg",
     "static/media/self.jpg": "/static/media/self.d1c1ed9e0f64fa72e602.jpg",
-    "static/media/versa-train.jpg": "/static/media/versa-train.bda7d18e73d4b908504e.jpg",
+    "static/media/Leap-To-Live.png": "/static/media/Leap-To-Live.ee2c6d06079cce221ffc.png",
     "static/media/Budget-Tracker.jpg": "/static/media/Budget-Tracker.9c91faf7512656292a21.jpg",
     "static/media/Massillo.ttf": "/static/media/Massillo.e1a523a6c25679a42bf1.ttf",
     "static/media/deep-thoughts.jpg": "/static/media/deep-thoughts.b7a5a49267fb54405279.jpg",
@@ -15,12 +15,12 @@
     "static/media/pizza-hunt.jpg": "/static/media/pizza-hunt.29b0a67fcb63882602a0.jpg",
     "static/media/my-tech-now.jpg": "/static/media/my-tech-now.86c2acc3192532276614.jpg",
     "index.html": "/index.html",
-    "main.f626893e.css.map": "/static/css/main.f626893e.css.map",
-    "main.b1e66110.js.map": "/static/js/main.b1e66110.js.map",
+    "main.40d700d0.css.map": "/static/css/main.40d700d0.css.map",
+    "main.61eec0b6.js.map": "/static/js/main.61eec0b6.js.map",
     "787.23356a18.chunk.js.map": "/static/js/787.23356a18.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f626893e.css",
-    "static/js/main.b1e66110.js"
+    "static/css/main.40d700d0.css",
+    "static/js/main.61eec0b6.js"
   ]
 }
