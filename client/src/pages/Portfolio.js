@@ -8,6 +8,7 @@ import Img4 from '../assets/small/portfolio/pizza-hunt.jpg';
 import Img5 from '../assets/small/portfolio/shop-shop.jpg';
 import img6 from '../assets/small/portfolio/book-search.jpg';
 import img7 from '../assets/small/portfolio/Leap-To-Live.png';
+import img8 from '../assets/small/portfolio/TVA-Screenshot.png';
 
 const Portfolio = () => {
   const PROJECTS = [
@@ -66,7 +67,16 @@ const Portfolio = () => {
       deployment: 'https://pacific-ocean-44039.herokuapp.com/',
     },
     {
-      id: 'p6',
+      id: 'p7',
+      name: 'True Value Appraisal',
+      description:
+        'True Value Appraisal is an appraisal service located in Santa Barbara California specializing in Fine Art and Classic Cars. The client hired me to create a clone of his existing website but in WordPress to improve his SEO and implement mobile optimization. ',
+      image: img8,
+      repo: 'https://true-valueappraisal.com/',
+      deployment: 'https://true-valueappraisal.com/',
+    },
+    {
+      id: 'p8',
       name: 'Leap To Live',
       description:
         'Leap To Live is a platformer style game, that I created using the Unity Game Engine and C#. The objective of the game is to get to the end of each level without dying by avoiding various hazards. ',
