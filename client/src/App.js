@@ -30,7 +30,9 @@ function App() {
           <Route path="/resume" exact>
             <Resume />
           </Route>
-          <Redirect to="/" />
+          <Route path="*">
+            <Redirect to="/" />
+          </Route>
         </Switch>
         <Footer />
       </main>

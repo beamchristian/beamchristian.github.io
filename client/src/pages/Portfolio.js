@@ -7,7 +7,7 @@ import Img3 from '../assets/small/portfolio/Budget-Tracker.jpg';
 import Img4 from '../assets/small/portfolio/pizza-hunt.jpg';
 import Img5 from '../assets/small/portfolio/shop-shop.jpg';
 import img6 from '../assets/small/portfolio/book-search.jpg';
-import img7 from '../assets/small/portfolio/versa-train.jpg';
+import img7 from '../assets/small/portfolio/Leap-To-Live.png';
 
 const Portfolio = () => {
   const PROJECTS = [
@@ -67,12 +67,12 @@ const Portfolio = () => {
     },
     {
       id: 'p6',
-      name: 'Versa-Train (In Development)',
+      name: 'Leap To Live',
       description:
-        'Versa-Train, a full MERN Stack SPA(Single Page Application) using Apollo GraphQL. Its funtionality is for employers to create and host their training material so that their employees can stay up to date with required job training. Employers can create the employee profiles and set the employees login and password.  Once the employee is logged in, they have their own seperate dashboard. This project was done with 3 other contributers using Agile Methodology via github.',
+        'Leap To Live is a platformer style game, that I created using the Unity Game Engine and C#. The objective of the game is to get to the end of each level without dying by avoiding various hazards. ',
       image: img7,
-      repo: 'https://github.com/oldgraybuzzard/crispy-giggle',
-      deployment: 'https://crispy-gigglers.herokuapp.com/',
+      repo: 'https://github.com/beamchristian/Leap-To-Live',
+      deployment: 'https://sharemygame.com/@ckbeamcoding/leap-to-live',
     },
   ];
 

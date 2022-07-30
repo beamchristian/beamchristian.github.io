@@ -13,6 +13,7 @@
   color: black;
   background: #dbcbd8;
   margin: 1rem 1rem;
+  justify-content: center;
 }
 
 .project-item a:hover,
@@ -41,7 +42,7 @@
 }
 
 .project-item__info h3 {
-  margin: 0;
+  margin: 1rem;
   font-weight: normal;
 }
 

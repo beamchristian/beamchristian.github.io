@@ -74,6 +74,10 @@ img {
   transition: all 200ms;
 }
 
+h3 {
+  margin-top: 1.5rem;
+}
+
 h1,
 h2,
 h3,
