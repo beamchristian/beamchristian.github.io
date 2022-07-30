@@ -1,10 +1,5 @@
 import React from 'react';
-import {
-  BrowserRouter as Router,
-  Route,
-  Redirect,
-  Switch,
-} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
@@ -14,7 +9,7 @@ import MainNavigation from './components/Navigation/MainNavigation';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/beamchristian.github.io">
       <MainNavigation />
       <main>
         <Switch>
@@ -29,9 +24,6 @@ function App() {
           </Route>
           <Route path="/resume" exact>
             <Resume />
-          </Route>
-          <Route path="*">
-            <Redirect to="/" />
           </Route>
         </Switch>
         <Footer />
