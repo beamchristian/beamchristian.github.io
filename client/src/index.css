@@ -127,13 +127,13 @@ p {
   margin: 1rem;
   padding: 0.5rem;
   border-radius: 0.5rem;
-  background-color: #faa916;
+  background-color: #20a0ba;
 }
 
 .resume-button:hover,
 .resume-button:active {
-  background: #ffbe46;
-  border-color: #ffbe46;
+  background: #24bfde;
+  border-color: #20a0ba;
 }
 
 .flex-row {

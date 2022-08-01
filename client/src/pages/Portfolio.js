@@ -16,7 +16,7 @@ const Portfolio = () => {
       id: 'p1',
       name: 'Shop-Shop',
       description:
-        'Shop-Shop, a e-commerce site where users can make an account, shop through an inventory of items, add them to a cart and checkout through the Stripe Api. Shop-Shop is a full MERN Stack SPA application using Apollo GraphQl and Redux for state. This application also has offline functionality through IndexedDb',
+        'Shop-Shop, a e-commerce site where users can make an account, shop through an inventory of items, add them to a cart and checkout through the Stripe Api. Shop-Shop is a full MERN Stack SPA application using Apollo GraphQl and Redux for state. This application also has offline functionality through IndexedDb.',
       image: Img5,
       repo: 'https://github.com/beamchristian/shop-shop-redux',
       deployment: 'https://frozen-beyond-22993.herokuapp.com/',
@@ -34,7 +34,7 @@ const Portfolio = () => {
       id: 'p3',
       name: 'My Tech Now',
       description:
-        'My Tech Now, a CMS-style blog-site Fullstack application using Mysql, Express, Handlebars, and a Restful Api',
+        'My Tech Now, a CMS-style blog-site Fullstack application using Mysql, Express, Handlebars, and a Restful Api.',
       image: Img2,
       repo: 'https://github.com/beamchristian/my-tech-now',
       deployment: 'https://murmuring-ocean-30648.herokuapp.com/',
@@ -52,7 +52,7 @@ const Portfolio = () => {
       id: 'p5',
       name: 'Pizza Hunt',
       description:
-        'Pizza Hunt, a website to store and share users favorite pizza combinations with the world! Pizza Hunt is a Fullstack NoSql application using MongoDb, and Express with a Restful Api',
+        'Pizza Hunt, a website to store and share users favorite pizza combinations with the world! Pizza Hunt is a Fullstack NoSql application using MongoDb, and Express with a Restful Api.',
       image: Img4,
       repo: 'https://github.com/beamchristian/pizza-hunt',
       deployment: 'https://fathomless-tundra-41161.herokuapp.com/',
