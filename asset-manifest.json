@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.40d700d0.css",
-    "main.js": "/static/js/main.c7f1249f.js",
+    "main.css": "/static/css/main.9d3e81f3.css",
+    "main.js": "/static/js/main.b24003d9.js",
     "static/js/787.23356a18.chunk.js": "/static/js/787.23356a18.chunk.js",
     "static/media/TVA-Screenshot.png": "/static/media/TVA-Screenshot.89814917fdf73773ca43.png",
     "static/media/shop-shop.jpg": "/static/media/shop-shop.15dc1e2206b98b9a9a4a.jpg",
@@ -16,12 +16,12 @@
     "static/media/pizza-hunt.jpg": "/static/media/pizza-hunt.29b0a67fcb63882602a0.jpg",
     "static/media/my-tech-now.jpg": "/static/media/my-tech-now.86c2acc3192532276614.jpg",
     "index.html": "/index.html",
-    "main.40d700d0.css.map": "/static/css/main.40d700d0.css.map",
-    "main.c7f1249f.js.map": "/static/js/main.c7f1249f.js.map",
+    "main.9d3e81f3.css.map": "/static/css/main.9d3e81f3.css.map",
+    "main.b24003d9.js.map": "/static/js/main.b24003d9.js.map",
     "787.23356a18.chunk.js.map": "/static/js/787.23356a18.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.40d700d0.css",
-    "static/js/main.c7f1249f.js"
+    "static/css/main.9d3e81f3.css",
+    "static/js/main.b24003d9.js"
   ]
 }
